@@ -1,0 +1,920 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis saveUserFull="imami" version="3.22.4-Białowieża" saveUser="imami" projectname="" saveDateTime="2024-03-22T01:13:16">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer legend_exp="" providerKey="ogr" id="godv_shp_a773633f_3100_4759_878d_2fecdb880852" patch_size="-1,-1" legend_split_behavior="0" source="godv_shp.gpkg|layername=godv_shp" name="godv_shp" expanded="1" checked="Qt::Checked">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer legend_exp="" providerKey="ogr" id="hybas_as_lev05_v1c_4a45dd7f_f5e3_4781_861f_c8cd53859dd6" patch_size="-1,-1" legend_split_behavior="0" source="../../../../Downloads/hybas_as_lev01-12_v1c/hybas_as_lev05_v1c.shp" name="hybas_as_lev05_v1c" expanded="1" checked="Qt::Unchecked">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>hybas_as_lev05_v1c_4a45dd7f_f5e3_4781_861f_c8cd53859dd6</item>
+      <item>godv_shp_a773633f_3100_4759_878d_2fecdb880852</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings type="1" tolerance="12" intersection-snapping="0" minScale="0" unit="1" scaleDependencyMode="0" self-snapping="0" enabled="0" mode="2" maxScale="0">
+    <individual-layer-settings>
+      <layer-setting type="1" tolerance="12" minScale="0" id="hybas_as_lev05_v1c_4a45dd7f_f5e3_4781_861f_c8cd53859dd6" enabled="0" units="1" maxScale="0"/>
+      <layer-setting type="1" tolerance="12" minScale="0" id="godv_shp_a773633f_3100_4759_878d_2fecdb880852" enabled="0" units="1" maxScale="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>73.23681209988070862</xmin>
+      <ymin>16.38430898030603799</ymin>
+      <xmax>83.4008642239040654</xmax>
+      <ymax>22.84550465901696015</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" name="godv_shp" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="godv_shp_a773633f_3100_4759_878d_2fecdb880852"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" drawingOrder="-1" name="hybas_as_lev05_v1c" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="hybas_as_lev05_v1c_4a45dd7f_f5e3_4781_861f_c8cd53859dd6"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <main-annotation-layer refreshOnNotifyMessage="" type="annotation" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <id>Annotations_0284cee8_a3e4_4f66_85fa_d68cbbf086b6</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+    <paintEffect/>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" autoRefreshTime="0" wkbType="MultiPolygon" simplifyDrawingHints="1" simplifyAlgorithm="0" type="vector" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" geometry="Polygon" legendPlaceholderImage="" labelsEnabled="0" readOnly="0" minScale="100000000" maxScale="0">
+      <extent>
+        <xmin>73.4788133409288946</xmin>
+        <ymin>16.53814697265629974</ymin>
+        <xmax>83.15886298285589362</xmax>
+        <ymax>22.6916666666666984</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>73.4788133409288946</xmin>
+        <ymin>16.53814697265629974</ymin>
+        <xmax>83.15886298285589362</xmax>
+        <ymax>22.6916666666666984</ymax>
+      </wgs84extent>
+      <id>godv_shp_a773633f_3100_4759_878d_2fecdb880852</id>
+      <datasource>../../../../godv_shp.gpkg|layername=godv_shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>godv_shp</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier>HydroBASINS Asia, Level 5, Version 1.c - Sub-basins in standard format (without lakes)</identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title>HydroBASINS Asia, Level 5, Version 1.c - Sub-basins in standard format (without lakes)</title>
+        <abstract>All HydroBASINS layers were derived from World Wildlife Fund’s HydroSHEDS data based on a grid resolution of 15 arc-seconds (approximately 500 m at the equator). Watersheds were delineated in a consistent manner at different scales, and a hierarchical sub-basin breakdown was created following the topological concept of the Pfafstetter coding system. The resulting polygon layers are termed HydroBASINS and represent a subset of the HydroSHEDS database. This shapefile contains (sub-)basin polygons for Asia at Pfafstetter level 5.
+
+HydroBASINS data provides a series of polygon layers that depict watershed boundaries and sub-basin delineations at a global scale. The goal of this product is to provide a seamless global coverage of consistently sized and hierarchically nested sub-basins at different scales (from tens to millions of square kilometers), supported by a coding scheme that allows for analysis of watershed topology such as up- and downstream connectivity.</abstract>
+        <keywords vocabulary="Search keys">
+          <keyword>HydroBASINS</keyword>
+          <keyword>HydrSHEDS</keyword>
+        </keywords>
+        <links/>
+        <fees></fees>
+        <constraints type="Limitations of use">HydroBASINS is covered by the same License Agreement as the HydroSHEDS database, which is available at http://www.hydrosheds.org. For all regulations regarding license grants, copyright, redistribution restrictions, required attributions, disclaimer of warranty, indemnification, liability, waiver of damages, and a precise definition of licensed materials, please refer to the License Agreement. By downloading and using the data the user agrees to the terms and conditions of the License Agreement.</constraints>
+        <rights>The HydroBASINS product has been developed on behalf of World Wildlife Fund US (WWF), with support and in collaboration with the EU BioFresh project, Berlin, Germany; the International Union for Conservation of Nature (IUCN), Cambridge, UK; and McGill University, Montreal, Canada. We kindly ask users to cite HydroBASINS in any published material produced using the data. If possible, online links to the HydroSHEDS website (http://www.hydrosheds.org) should be provided. Citations and acknowledgements of the HydroBASINS data should be made as follows: Lehner, B., Grill G. (2013): Global river hydrography and network routing: baseline data and new approaches to study the world’s large river systems. Hydrological Processes, 27(15): 2171–2186. Data is available at www.hydrosheds.org.&#xd;
+</rights>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxy="56" maxx="151" dimensions="2" minz="0" minx="57" miny="1" crs="EPSG:4326" maxz="0"/>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal endField="" durationField="" durationUnit="min" fixedDuration="0" startExpression="" accumulate="0" limitMode="0" endExpression="" enabled="0" mode="0" startField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 type="singleSymbol" symbollevels="0" referencescale="-1" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol alpha="1" type="fill" force_rhr="0" name="0" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="229,182,54,255" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.26" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="229,182,54,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="HYBAS_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NEXT_DOWN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NEXT_SINK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MAIN_BAS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="DIST_SINK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="DIST_MAIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SUB_AREA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="UP_AREA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="PFAF_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ENDO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="COAST">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ORDER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SORT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="fid" name="" index="0"/>
+        <alias field="HYBAS_ID" name="" index="1"/>
+        <alias field="NEXT_DOWN" name="" index="2"/>
+        <alias field="NEXT_SINK" name="" index="3"/>
+        <alias field="MAIN_BAS" name="" index="4"/>
+        <alias field="DIST_SINK" name="" index="5"/>
+        <alias field="DIST_MAIN" name="" index="6"/>
+        <alias field="SUB_AREA" name="" index="7"/>
+        <alias field="UP_AREA" name="" index="8"/>
+        <alias field="PFAF_ID" name="" index="9"/>
+        <alias field="ENDO" name="" index="10"/>
+        <alias field="COAST" name="" index="11"/>
+        <alias field="ORDER" name="" index="12"/>
+        <alias field="SORT" name="" index="13"/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" field="fid" expression=""/>
+        <default applyOnUpdate="0" field="HYBAS_ID" expression=""/>
+        <default applyOnUpdate="0" field="NEXT_DOWN" expression=""/>
+        <default applyOnUpdate="0" field="NEXT_SINK" expression=""/>
+        <default applyOnUpdate="0" field="MAIN_BAS" expression=""/>
+        <default applyOnUpdate="0" field="DIST_SINK" expression=""/>
+        <default applyOnUpdate="0" field="DIST_MAIN" expression=""/>
+        <default applyOnUpdate="0" field="SUB_AREA" expression=""/>
+        <default applyOnUpdate="0" field="UP_AREA" expression=""/>
+        <default applyOnUpdate="0" field="PFAF_ID" expression=""/>
+        <default applyOnUpdate="0" field="ENDO" expression=""/>
+        <default applyOnUpdate="0" field="COAST" expression=""/>
+        <default applyOnUpdate="0" field="ORDER" expression=""/>
+        <default applyOnUpdate="0" field="SORT" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="1" unique_strength="1" exp_strength="0" constraints="3" field="fid"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="HYBAS_ID"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="NEXT_DOWN"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="NEXT_SINK"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="MAIN_BAS"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="DIST_SINK"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="DIST_MAIN"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="SUB_AREA"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="UP_AREA"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="PFAF_ID"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="ENDO"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="COAST"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="ORDER"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="SORT"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="fid"/>
+        <constraint desc="" exp="" field="HYBAS_ID"/>
+        <constraint desc="" exp="" field="NEXT_DOWN"/>
+        <constraint desc="" exp="" field="NEXT_SINK"/>
+        <constraint desc="" exp="" field="MAIN_BAS"/>
+        <constraint desc="" exp="" field="DIST_SINK"/>
+        <constraint desc="" exp="" field="DIST_MAIN"/>
+        <constraint desc="" exp="" field="SUB_AREA"/>
+        <constraint desc="" exp="" field="UP_AREA"/>
+        <constraint desc="" exp="" field="PFAF_ID"/>
+        <constraint desc="" exp="" field="ENDO"/>
+        <constraint desc="" exp="" field="COAST"/>
+        <constraint desc="" exp="" field="ORDER"/>
+        <constraint desc="" exp="" field="SORT"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" simplifyMaxScale="1" refreshOnNotifyMessage="" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" symbologyReferenceScale="-1" autoRefreshTime="0" wkbType="MultiPolygon" simplifyDrawingHints="1" simplifyAlgorithm="0" type="vector" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" geometry="Polygon" legendPlaceholderImage="" labelsEnabled="0" readOnly="0" minScale="100000000" maxScale="0">
+      <extent>
+        <xmin>57.6083333333333627</xmin>
+        <ymin>1.16666666666669228</ymin>
+        <xmax>150.92148878309464521</xmax>
+        <ymax>55.93750000000003553</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>57.6083333333333627</xmin>
+        <ymin>1.16666666666669228</ymin>
+        <xmax>150.92148878309464521</xmax>
+        <ymax>55.93750000000003553</ymax>
+      </wgs84extent>
+      <id>hybas_as_lev05_v1c_4a45dd7f_f5e3_4781_861f_c8cd53859dd6</id>
+      <datasource>../../../../Downloads/hybas_as_lev01-12_v1c/hybas_as_lev05_v1c.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hybas_as_lev05_v1c</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier>HydroBASINS Asia, Level 5, Version 1.c - Sub-basins in standard format (without lakes)</identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title>HydroBASINS Asia, Level 5, Version 1.c - Sub-basins in standard format (without lakes)</title>
+        <abstract>All HydroBASINS layers were derived from World Wildlife Fund’s HydroSHEDS data based on a grid resolution of 15 arc-seconds (approximately 500 m at the equator). Watersheds were delineated in a consistent manner at different scales, and a hierarchical sub-basin breakdown was created following the topological concept of the Pfafstetter coding system. The resulting polygon layers are termed HydroBASINS and represent a subset of the HydroSHEDS database. This shapefile contains (sub-)basin polygons for Asia at Pfafstetter level 5.
+
+HydroBASINS data provides a series of polygon layers that depict watershed boundaries and sub-basin delineations at a global scale. The goal of this product is to provide a seamless global coverage of consistently sized and hierarchically nested sub-basins at different scales (from tens to millions of square kilometers), supported by a coding scheme that allows for analysis of watershed topology such as up- and downstream connectivity.</abstract>
+        <keywords vocabulary="Search keys">
+          <keyword>HydroBASINS</keyword>
+          <keyword>HydrSHEDS</keyword>
+        </keywords>
+        <links/>
+        <fees></fees>
+        <constraints type="Limitations of use">HydroBASINS is covered by the same License Agreement as the HydroSHEDS database, which is available at http://www.hydrosheds.org. For all regulations regarding license grants, copyright, redistribution restrictions, required attributions, disclaimer of warranty, indemnification, liability, waiver of damages, and a precise definition of licensed materials, please refer to the License Agreement. By downloading and using the data the user agrees to the terms and conditions of the License Agreement.</constraints>
+        <rights>The HydroBASINS product has been developed on behalf of World Wildlife Fund US (WWF), with support and in collaboration with the EU BioFresh project, Berlin, Germany; the International Union for Conservation of Nature (IUCN), Cambridge, UK; and McGill University, Montreal, Canada. We kindly ask users to cite HydroBASINS in any published material produced using the data. If possible, online links to the HydroSHEDS website (http://www.hydrosheds.org) should be provided. Citations and acknowledgements of the HydroBASINS data should be made as follows: Lehner, B., Grill G. (2013): Global river hydrography and network routing: baseline data and new approaches to study the world’s large river systems. Hydrological Processes, 27(15): 2171–2186. Data is available at www.hydrosheds.org.&#xd;
+</rights>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxy="56" maxx="151" dimensions="2" minz="0" minx="57" miny="1" crs="EPSG:4326" maxz="0"/>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="ISO-8859-1">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal endField="" durationField="" durationUnit="min" fixedDuration="0" startExpression="" accumulate="0" limitMode="0" endExpression="" enabled="0" mode="0" startField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 type="singleSymbol" symbollevels="0" referencescale="-1" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol alpha="1" type="fill" force_rhr="0" name="0" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="196,60,57,255" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.26" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="196,60,57,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="HYBAS_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NEXT_DOWN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="NEXT_SINK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="MAIN_BAS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="DIST_SINK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="DIST_MAIN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SUB_AREA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="UP_AREA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="PFAF_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ENDO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="COAST">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ORDER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="SORT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="HYBAS_ID" name="" index="0"/>
+        <alias field="NEXT_DOWN" name="" index="1"/>
+        <alias field="NEXT_SINK" name="" index="2"/>
+        <alias field="MAIN_BAS" name="" index="3"/>
+        <alias field="DIST_SINK" name="" index="4"/>
+        <alias field="DIST_MAIN" name="" index="5"/>
+        <alias field="SUB_AREA" name="" index="6"/>
+        <alias field="UP_AREA" name="" index="7"/>
+        <alias field="PFAF_ID" name="" index="8"/>
+        <alias field="ENDO" name="" index="9"/>
+        <alias field="COAST" name="" index="10"/>
+        <alias field="ORDER" name="" index="11"/>
+        <alias field="SORT" name="" index="12"/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" field="HYBAS_ID" expression=""/>
+        <default applyOnUpdate="0" field="NEXT_DOWN" expression=""/>
+        <default applyOnUpdate="0" field="NEXT_SINK" expression=""/>
+        <default applyOnUpdate="0" field="MAIN_BAS" expression=""/>
+        <default applyOnUpdate="0" field="DIST_SINK" expression=""/>
+        <default applyOnUpdate="0" field="DIST_MAIN" expression=""/>
+        <default applyOnUpdate="0" field="SUB_AREA" expression=""/>
+        <default applyOnUpdate="0" field="UP_AREA" expression=""/>
+        <default applyOnUpdate="0" field="PFAF_ID" expression=""/>
+        <default applyOnUpdate="0" field="ENDO" expression=""/>
+        <default applyOnUpdate="0" field="COAST" expression=""/>
+        <default applyOnUpdate="0" field="ORDER" expression=""/>
+        <default applyOnUpdate="0" field="SORT" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="HYBAS_ID"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="NEXT_DOWN"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="NEXT_SINK"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="MAIN_BAS"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="DIST_SINK"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="DIST_MAIN"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="SUB_AREA"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="UP_AREA"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="PFAF_ID"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="ENDO"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="COAST"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="ORDER"/>
+        <constraint notnull_strength="0" unique_strength="0" exp_strength="0" constraints="0" field="SORT"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="HYBAS_ID"/>
+        <constraint desc="" exp="" field="NEXT_DOWN"/>
+        <constraint desc="" exp="" field="NEXT_SINK"/>
+        <constraint desc="" exp="" field="MAIN_BAS"/>
+        <constraint desc="" exp="" field="DIST_SINK"/>
+        <constraint desc="" exp="" field="DIST_MAIN"/>
+        <constraint desc="" exp="" field="SUB_AREA"/>
+        <constraint desc="" exp="" field="UP_AREA"/>
+        <constraint desc="" exp="" field="PFAF_ID"/>
+        <constraint desc="" exp="" field="ENDO"/>
+        <constraint desc="" exp="" field="COAST"/>
+        <constraint desc="" exp="" field="ORDER"/>
+        <constraint desc="" exp="" field="SORT"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="hybas_as_lev05_v1c_4a45dd7f_f5e3_4781_861f_c8cd53859dd6"/>
+    <layer id="godv_shp_a773633f_3100_4759_878d_2fecdb880852"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>imami</author>
+    <creation>2024-03-22T01:11:35</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+    <DefaultViewExtent xmax="83.4008642239040654" ymax="23.02914723903157324" ymin="16.20066640029142491" xmin="73.23681209988070862">
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectTimeSettings timeStepUnit="h" timeStep="1" frameRate="1" cumulativeTemporalRange="0"/>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option type="QChar" value="" name="decimal_separator"/>
+        <Option type="int" value="6" name="decimals"/>
+        <Option type="int" value="0" name="direction_format"/>
+        <Option type="int" value="0" name="rounding_type"/>
+        <Option type="bool" value="false" name="show_plus"/>
+        <Option type="bool" value="true" name="show_thousand_separator"/>
+        <Option type="bool" value="false" name="show_trailing_zeros"/>
+        <Option type="QChar" value="" name="thousand_separator"/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>
